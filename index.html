@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />  
+  <title>Week 6 Assignment - Interactive Web Pages</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Week 6 Assignment: Interactive Web Pages 🚀</h1>
+
+  <!-- Part 1: Event Handling Demo -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+    <p id="hoverText">Hover over this text to change its color.</p>
+    <input type="text" id="typingInput" placeholder="Type here..." />
+    <p id="keyOutput"></p>
+  </section>
+
+  <hr />
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+
+    <!-- Counter Game -->
+    <div id="counterSection">
+      <h3>Counter Game</h3>
+      <p>Score: <span id="counter">0</span></p>
+      <button id="incrementBtn">+ Increase</button>
+      <button id="decrementBtn">- Decrease</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div id="faqSection">
+      <h3>FAQ Section</h3>
+      <div class="faq">
+        <button class="faq-question">What is JavaScript?</button>
+        <p class="faq-answer">JavaScript is a scripting language used to create dynamic and interactive web content.</p>
+      </div>
+      <div class="faq">
+        <button class="faq-question">What is DOM?</button>
+        <p class="faq-answer">DOM (Document Object Model) represents the structure of an HTML document that JavaScript can interact with.</p>
+      </div>
+      <div class="faq">
+        <button class="faq-question">Why validate forms?</button>
+        <p class="faq-answer">Form validation prevents incorrect or incomplete data from being submitted by users.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="myForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" />
+      <span id="usernameError" class="error"></span>
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" />
+      <span id="emailError" class="error"></span>
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <span id="passwordError" class="error"></span>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
